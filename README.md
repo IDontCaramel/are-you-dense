@@ -6,6 +6,7 @@ Are You Dense is a server side fabric 1.20.1 mod for changing the density of ore
 
 ## install
 
+Download the [latest](https://github.com/IDontCaramel/are-you-dense/releases) version of the mod from releases
 Add the mod jar and the fabric api to your servers mods folder.
 
 The config file is `config/are-you-dense.toml`. It is optional and is only
