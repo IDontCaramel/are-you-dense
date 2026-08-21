@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "are-you-dense",
+	"version": "${version}",
+	"name": "Are You Dense",
+	"description": "configurable ore density for fabric servers.",
+	"authors": [
+		"caramel"
+	],
+	"contact": {
+		"sources": "https://github.com/IDontCaramel/are-you-dense"
+	},
+	"license": "MIT",
+	"icon": "assets/are-you-dense/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"net.caramel.ayd.AreYouDense"
+		]
+	},
+	"mixins": [
+		"are-you-dense.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
