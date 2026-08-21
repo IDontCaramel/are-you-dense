@@ -52,5 +52,6 @@ jobs:
             exit 1
           fi
           gh release create "$GITHUB_REF_NAME" "$main_jar" \
+            --repo "$GITHUB_REPOSITORY" \
             --title "$GITHUB_REF_NAME" \
             --generate-notes
