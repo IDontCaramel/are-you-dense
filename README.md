@@ -30,6 +30,13 @@ Operators with permission level 2 can use:
 - `/ayd reset all`
 - `/ayd list`
 
+## example
+
+before
+![before](imgs/before.jpg)
+
+after (0.1 multiplier)
+![before](imgs/after.jpg)
 
 ## License
 
